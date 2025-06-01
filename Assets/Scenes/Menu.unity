@@ -283,7 +283,7 @@ GameObject:
   - component: {fileID: 171148438}
   m_Layer: 0
   m_Name: Param
-  m_TagString: Untagged
+  m_TagString: Param
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1569,6 +1569,7 @@ MonoBehaviour:
   main_panel: {fileID: 1353484457}
   ex_panel: {fileID: 489572471}
   songs_panel: {fileID: 1765814609}
+  param: {fileID: 171148438}
 --- !u!1001 &815191137
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1883,13 +1884,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 810454056}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 810454061}
+        m_TargetAssemblyTypeName: Menu, Assembly-CSharp
+        m_MethodName: loadLAcords
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -2781,13 +2782,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 810454056}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 810454061}
+        m_TargetAssemblyTypeName: Menu, Assembly-CSharp
+        m_MethodName: loadEx1
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -4620,13 +4621,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 810454056}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 810454061}
+        m_TargetAssemblyTypeName: Menu, Assembly-CSharp
+        m_MethodName: loadEx2
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
