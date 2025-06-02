@@ -26,11 +26,13 @@ public class PlayMain : MonoBehaviour
                     break;
                 case "ex1":
                     met.bpm = 60.0f;
+                    met.nExc = 1;
                     animator.SetInteger("i", 2);
                     Debug.Log("Виконано");
                     break;
                 case "ex2":
                     met.bpm = 60.0f;
+                    met.nExc = 2;
                     animator.SetInteger("i", 1);
                     break;
                 case "STab":

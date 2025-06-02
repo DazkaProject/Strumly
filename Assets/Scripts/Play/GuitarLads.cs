@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Rendering;
 
 public class GuitarLads : MonoBehaviour
 {
@@ -15,6 +16,7 @@ public class GuitarLads : MonoBehaviour
     void Start()
     {
         HideAll();
+        pimaHideAll();
     }
 
 
@@ -44,14 +46,53 @@ public class GuitarLads : MonoBehaviour
         {
             i.SetActive(false);
         }
+        
+    }
+
+    public void pimaHideAll()
+    {
         foreach (GameObject i in pima)
         {
             i.SetActive(false);
         }
     }
 
+    public void pimaShow(int i)
+    {
+        pima[i].SetActive(true);
+    }
 
-    public void Zag(int raw, int lad)
+    public void pimaHide(int i)
+    {
+        pima[i].SetActive(false);
+    }
+
+    public void hide(int raw, int lad)
+    {
+        switch (raw)
+        {
+            case 0:
+                raw1[lad].SetActive(false);
+                break;
+            case 1:
+                raw2[lad].SetActive(false);
+                break;
+            case 2:
+                raw3[lad].SetActive(false);
+                break;
+            case 3:
+                raw4[lad].SetActive(false);
+                break;
+            case 4:
+                raw5[lad].SetActive(false);
+                break;
+            case 5:
+                raw6[lad].SetActive(false);
+                break;
+        }
+    }
+
+    public void show(int raw, int lad)
     {
         switch (raw)
         {
