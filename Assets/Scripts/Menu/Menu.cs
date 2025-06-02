@@ -55,4 +55,11 @@ public class Menu : MonoBehaviour
         param.type = "lAcords";
         SceneManager.LoadScene(1);
     }
+
+    public void loadSong(GameObject obj)
+    {
+        param.type = "lAcords";
+        param.song = obj;
+        SceneManager.LoadScene(1);
+    }
 }

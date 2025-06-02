@@ -21,21 +21,26 @@ public class PlayMain : MonoBehaviour
             switch (param.type)
             {
                 case "lAcords":
-                    //met.bpm = 60.0f;
+                    met.bpm = 60.0f;
                     animator.SetInteger("i", 1);
                     break;
                 case "ex1":
+                    met.bpm = 60.0f;
                     animator.SetInteger("i", 2);
                     Debug.Log("Виконано");
                     break;
                 case "ex2":
+                    met.bpm = 60.0f;
                     animator.SetInteger("i", 1);
                     break;
                 case "STab":
+                    met.bpm = 60.0f;
                     animator.SetInteger("i", 1);
+                    Instantiate(param.song);
                     break;
                 case "SFight":
                     animator.SetInteger("i", 0);
+                    Instantiate(param.song);
                     break;
             }
             param = null;
