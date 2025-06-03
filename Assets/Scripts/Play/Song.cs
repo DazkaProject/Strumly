@@ -39,6 +39,7 @@ public class Song : MonoBehaviour
         }
         else
         {
+            BiyIm.sprite = biy;
             Acord.text = acords[index];
             NextAcord.text = acords[index + 1];
         }
