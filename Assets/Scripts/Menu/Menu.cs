@@ -58,18 +58,19 @@ public class Menu : MonoBehaviour
 
     public void loadSongTab(GameObject obj)
     {
-
+        param.song = obj;
         param.type = "STab";
 
-        param.song = obj;
+        
         SceneManager.LoadScene(1);
     }
 
     public void loadSongBiy(GameObject obj)
     {
+        param.song = obj;
         param.type = "SFight";
         
-        param.song = obj;
+        
         SceneManager.LoadScene(1);
     }
 }
