@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class PlayMain : MonoBehaviour
@@ -8,9 +10,18 @@ public class PlayMain : MonoBehaviour
     
     public Metronome met;
     public GameObject ac;
+    public GameObject tabs;
+    public GameObject biy;
+
+    public Image TabsIm;
+    public Image BiyIm;
+    public TMP_Text Acord;
+    public TMP_Text NextAcord;
+    public GuitarLads gl;
 
     Animator animator;
     Param param;
+    Song song;
 
     void Start()
     {
@@ -38,13 +49,14 @@ public class PlayMain : MonoBehaviour
                     animator.SetInteger("i", 1);
                     break;
                 case "STab":
-                    met.bpm = 60.0f;
                     animator.SetInteger("i", 1);
                     Instantiate(param.song);
+                    SongLoad(true);
                     break;
                 case "SFight":
                     animator.SetInteger("i", 0);
                     Instantiate(param.song);
+                    SongLoad(false);
                     break;
             }
             param = null;
@@ -56,7 +68,26 @@ public class PlayMain : MonoBehaviour
         }
     }
 
-    // Update is called once per frame
+    void SongLoad(bool t)
+    {
+        song = GameObject.FindWithTag("Song").GetComponent<Song>();
+
+        song.metronome = met;
+        song.gl = gl;
+
+        if (t)
+        {
+            song.TabsIm = TabsIm;
+        }
+        else
+        {
+            song.BiyIm = BiyIm;
+            song.Acord = Acord;
+            song.NextAcord = NextAcord;
+        }
+        song.Go();
+    }
+
     void Update()
     {
         if (Input.GetKeyUp(KeyCode.Escape))

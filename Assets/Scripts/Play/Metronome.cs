@@ -9,6 +9,8 @@ public class Metronome : MonoBehaviour
     public int nExc = 0;
     int exTick = 0;
 
+    public Song song;
+
     private float nextTick = 0.0f;
     private float timePerTick;
     private int tickCounter = 0;
@@ -45,7 +47,25 @@ public class Metronome : MonoBehaviour
             {
                 tickCounter = 0;
                 // Тут можна додати логіку для початку нового такту
-                
+                if (song != null)
+                {
+                    if (!song.isTab)
+                    {
+                        song.GoNextAcord();
+                    }
+                    else
+                    {
+                        song.nextT();
+                    }
+                }
+            }
+
+            if (song != null)
+            {
+                if (song.isTab)
+                {
+                    song.GoTab();
+                }
             }
 
             if (nExc == 1)

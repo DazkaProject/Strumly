@@ -405,10 +405,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 810454061}
         m_TargetAssemblyTypeName: Menu, Assembly-CSharp
-        m_MethodName: loadSong
+        m_MethodName: loadSongTab
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgument: {fileID: 917562108366478574, guid: ccaf1052fa073f64ea62fef6ea8d8b74, type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -1868,7 +1868,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0.0008293485}
+  m_AnchoredPosition: {x: 0, y: 0.000078403784}
   m_SizeDelta: {x: 0, y: 211.53}
   m_Pivot: {x: 0, y: 1}
 --- !u!1 &810454056
@@ -4092,7 +4092,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 540624768}
   m_Direction: 2
   m_Value: 0
-  m_Size: 0.99798954
+  m_Size: 0.99999994
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -5243,10 +5243,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 810454061}
         m_TargetAssemblyTypeName: Menu, Assembly-CSharp
-        m_MethodName: loadSong
+        m_MethodName: loadSongBiy
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgument: {fileID: 917562108366478574, guid: 086d386e2cac68842b9c8235b6934da4, type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
