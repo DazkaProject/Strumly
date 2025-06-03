@@ -52,11 +52,13 @@ public class PlayMain : MonoBehaviour
                     animator.SetInteger("i", 1);
                     Instantiate(param.song);
                     SongLoad(true);
+                    tabs.SetActive(true);
                     break;
                 case "SFight":
                     animator.SetInteger("i", 0);
                     Instantiate(param.song);
                     SongLoad(false);
+                    biy.SetActive(true);
                     break;
             }
             param = null;
