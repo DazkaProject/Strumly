@@ -167,6 +167,14 @@ public class GuitarLads : MonoBehaviour
         raw2[2].SetActive(true);
     }
 
+    public void AcordD7()
+    {
+        HideAll();
+        raw1[1].SetActive(true);
+        raw3[1].SetActive(true);
+        raw2[0].SetActive(true);
+    }
+
     public void AcordC()
     {
         HideAll();
@@ -174,6 +182,91 @@ public class GuitarLads : MonoBehaviour
         raw4[1].SetActive(true);
         raw5[2].SetActive(true);
     }
+
+    public void AcordC7()
+    {
+        HideAll();
+        raw2[0].SetActive(true);
+        raw3[2].SetActive(true);
+        raw4[1].SetActive(true);
+        raw5[2].SetActive(true);
+    }
+
+    public void AcordGm()
+    {
+        HideAll();
+        raw1[2].SetActive(true);
+        raw2[2].SetActive(true);
+        raw3[2].SetActive(true);
+        raw4[4].SetActive(true);
+        raw5[4].SetActive(true);
+        raw6[2].SetActive(true);
+    }
+
+    public void AcordCm()
+    {
+        HideAll();
+        raw1[2].SetActive(true);
+        raw2[3].SetActive(true);
+        raw3[4].SetActive(true);
+        raw4[4].SetActive(true);
+        raw5[2].SetActive(true);
+    }
+    public void AcordB()
+    {
+        HideAll();
+        raw1[1].SetActive(true);
+        raw2[3].SetActive(true);
+        raw3[3].SetActive(true);
+        raw4[3].SetActive(true);
+        raw5[1].SetActive(true);
+    }
+
+    public void AcordBm()
+    {
+        HideAll();
+        raw1[1].SetActive(true);
+        raw2[2].SetActive(true);
+        raw3[3].SetActive(true);
+        raw5[1].SetActive(true);
+    }
+
+    public void AcordFm()
+    {
+        HideAll();
+        raw1[0].SetActive(true);
+        raw2[0].SetActive(true);
+        raw3[0].SetActive(true); 
+        raw4[2].SetActive(true);
+        raw5[2].SetActive(true);
+        raw6[0].SetActive(true);
+    }
+
+
+    public void AcordF()
+    {
+        HideAll();
+        raw1[0].SetActive(true);
+        raw2[0].SetActive(true);
+        raw3[1].SetActive(true);
+        raw4[2].SetActive(true);
+        raw5[2].SetActive(true);
+        raw6[0].SetActive(true);
+    }
+
+
+    public void AcordF7()
+    {
+        HideAll();
+        raw1[0].SetActive(true);
+        raw2[0].SetActive(true);
+        raw3[1].SetActive(true);
+        raw4[0].SetActive(true);
+        raw5[2].SetActive(true);
+        raw6[0].SetActive(true);
+    }
+
+
 
     public void AcordG()
     {
@@ -190,5 +283,27 @@ public class GuitarLads : MonoBehaviour
         raw5[1].SetActive(true);
         raw3[1].SetActive(true);
         raw1[1].SetActive(true);
+    }
+
+    public void AcordA7()
+    {
+        HideAll();
+        raw3[1].SetActive(true);
+        raw1[1].SetActive(true);
+    }
+
+    public void AcordG7()
+    {
+        HideAll();
+        raw1[0].SetActive(true);
+        raw5[1].SetActive(true);
+        raw6[2].SetActive(true);
+    }
+
+    public void AcordE7()
+    {
+        HideAll();
+        raw3[0].SetActive(true);
+        raw5[1].SetActive(true);
     }
 }

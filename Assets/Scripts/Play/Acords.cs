@@ -44,6 +44,42 @@ public class Acords : MonoBehaviour
             case "B7":
                 guitarLads.AcordB7();
                 break;
+            case "A7":
+                guitarLads.AcordA7();
+                break;
+            case "G7":
+                guitarLads.AcordG7();
+                break;
+            case "E7":
+                guitarLads.AcordE7();
+                break;
+            case "D7":
+                guitarLads.AcordD7();
+                break;
+            case "C7":
+                guitarLads.AcordC7();
+                break;
+            case "Fm":
+                guitarLads.AcordFm();
+                break;
+            case "F":
+                guitarLads.AcordF();
+                break;
+            case "F7":
+                guitarLads.AcordF7();
+                break;
+            case "Gm":
+                guitarLads.AcordGm();
+                break;
+            case "B":
+                guitarLads.AcordB();
+                break;
+            case "Bm":
+                guitarLads.AcordBm();
+                break;
+            case "Cm":
+                guitarLads.AcordCm();
+                break;
             default:
                 guitarLads.HideAll();
                 break;
