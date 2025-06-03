@@ -50,13 +50,13 @@ public class Metronome : MonoBehaviour
 
             if (nExc == 1)
             {
-                if (exTick == 3) exTick = 0;
+                if (exTick == exc.MaxEx1) exTick = 0;
                 exTick++;
                 exc.ex1?.Invoke(this, new ExEvent { Tick = exTick });
             }
             else if (nExc == 2)
             {
-                if (exTick == 16) exTick = 0;
+                if (exTick == exc.MaxEx2) exTick = 0;
                 exTick++;
                 exc.ex2?.Invoke(this, new ExEvent { Tick = exTick });
             }

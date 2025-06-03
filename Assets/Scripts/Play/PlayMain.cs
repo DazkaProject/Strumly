@@ -7,6 +7,7 @@ public class PlayMain : MonoBehaviour
 {
     
     public Metronome met;
+    public GameObject ac;
 
     Animator animator;
     Param param;
@@ -22,6 +23,7 @@ public class PlayMain : MonoBehaviour
             {
                 case "lAcords":
                     met.bpm = 60.0f;
+                    ac.SetActive(true);
                     animator.SetInteger("i", 1);
                     break;
                 case "ex1":
