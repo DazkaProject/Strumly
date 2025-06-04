@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Acords">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgQAAAAAAAIAAAAAAAAAAAAAEAABAFAAAAAAAAEAAAA=</HashCode>
+      <FileName>Assets\Scripts\Play\Acords.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Exc">
+    <Position X="6.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAACAAAAAAAAEAAAAAAAAAACAAAAAgA=</HashCode>
+      <FileName>Assets\Scripts\Play\Exc.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExEvent">
+    <Position X="8" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>Assets\Scripts\Play\Exc.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GuitarLads">
+    <Position X="6.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAACAAAAAoCAAAABAAAQAAACAABQDgBwAAIAA=</HashCode>
+      <FileName>Assets\Scripts\Play\GuitarLads.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Metronome">
+    <Position X="8" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAACACAAAAAAABCAgAAAAAAIEQAAAQABAAAAAgA=</HashCode>
+      <FileName>Assets\Scripts\Play\Metronome.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayMain">
+    <Position X="11.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAQAQAAAACQKAAIAACAAAQgAAAAIAAAAAQBAAAAAAgA=</HashCode>
+      <FileName>Assets\Scripts\Play\PlayMain.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Song">
+    <Position X="4.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAMAAIAACQCAAgAEAABACCACQCBEAABQoE=</HashCode>
+      <FileName>Assets\Scripts\Play\Song.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Param">
+    <Position X="9.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAJAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Param.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HighlightOnHover">
+    <Position X="8" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAQAAAACAAAAAAAABECAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Menu\HighlightOnHover.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Menu">
+    <Position X="9.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAQACACAQgAAAAECAABAAAAAEACAAAAAABAEAA=</HashCode>
+      <FileName>Assets\Scripts\Menu\Menu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Delegate Name="Ex1">
+    <Position X="11.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Play\Exc.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="Ex2">
+    <Position X="9.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Play\Exc.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
